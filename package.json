@@ -1,0 +1,30 @@
+{
+  "name": "ilunja",
+  "version": "1.0.0",
+  "description": "Discord management bot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src",
+    "build": "tsc && node dist"
+  },
+  "author": "Cywohoy",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@sapphire/decorators": "^6.0.4",
+    "@sapphire/framework": "^5.0.7",
+    "@sapphire/plugin-subcommands": "^6.0.3",
+    "@sapphire/utilities": "^3.15.3",
+    "@types/xml2js": "^0.4.14",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "node-latex": "^3.1.0",
+    "node-schedule": "^2.1.1",
+    "xml2js": "^0.6.2"
+  }
+}
